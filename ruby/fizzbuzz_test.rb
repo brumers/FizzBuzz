@@ -27,7 +27,7 @@ class FizzBuzzTest < Test::Unit::TestCase
     end
    end
  
- 	def test
+ 	def test_print
  		puts FizzBuzz.new(35).fizzbuzz()
  	end
 end
